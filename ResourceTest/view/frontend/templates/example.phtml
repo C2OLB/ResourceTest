@@ -1,0 +1,9 @@
+<?php
+$productCollection = $block->getProductCollection();
+if ($productCollection)
+ {
+    foreach ($productCollection as $product) {
+        print_r($product->getData());
+        echo "<br>";
+    }
+}

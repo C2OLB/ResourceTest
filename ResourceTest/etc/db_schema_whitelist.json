@@ -1,0 +1,13 @@
+{
+    "ResourceTest_table": {
+        "column": {
+            "id_column": true,
+            "content": true,
+            "published_time": true,
+            "edit_published_time": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}
